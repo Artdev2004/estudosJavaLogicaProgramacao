@@ -9,23 +9,18 @@ public class Main {
 		nas variáveis.*/
 		
 		
-		
 		int a = 10, b = 20 , c;
+		
+		
+		
 		System.out.println("O valor de A é: " +  a);
 		System.out.println("O valor de B é: " +  b);
-		
 		c = a;
 		a = b;
 		b = c;
 		
 		System.out.println("O valor de A agora é: " +  a);
 		System.out.println("O valor de B agora é: " +  b);
-		
-		
-		
-		
-	
-		
 		
 
 	}

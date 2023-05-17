@@ -14,7 +14,6 @@ public class Main {
 		int totalEleitor, votoBranco, votoValido, votoNulo;
 		
 		
-		
 		System.out.println("Digite o número total de Eleitores: ");
 		totalEleitor = sc.nextInt();
 		
@@ -24,13 +23,11 @@ public class Main {
 		votoBranco = sc.nextInt();
 		System.out.println("Digite número de votos válidos: ");
 		votoValido = sc.nextInt();
+			
+		System.out.println("Porcentagem de votos Válidos: " + votoValido * 100 / totalEleitor + "%");
+		System.out.println("\nPorcentagem de votos Branco: " + votoBranco * 100 / totalEleitor + "%");
+		System.out.println("\nPorcentagem de votos Nulo: " + votoNulo * 100 / totalEleitor + "%");
 		
-		float porcentagemValido = votoValido * 100 / totalEleitor;
-		float porcentagemBranco = votoBranco * 100 / totalEleitor;
-		float porcentagemNulo = votoNulo * 100 / totalEleitor;
-		
-		System.out.printf("Porcentagem de votos Válidos: " + porcentagemValido);
-		System.out.printf("\nPorcentagem de votos Branco: " + porcentagemBranco);
-		System.out.printf("\nPorcentagem de votos Nulo: " + porcentagemNulo);
+		sc.close();
 	}
 }

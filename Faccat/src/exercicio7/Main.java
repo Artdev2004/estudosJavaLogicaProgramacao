@@ -23,6 +23,7 @@ public class Main {
 		
 		System.out.println("IDADE EXPRESSA EM DIAS: " + idadeEmDias);
 		
+		sc.close();
 		
 	}
 }
