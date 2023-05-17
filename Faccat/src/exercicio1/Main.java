@@ -1,6 +1,6 @@
 package exercicio1;
 
-public class Exercicio1 {
+public class Main {
 
 	public static void main(String[] args) {
 		/*Escreva um algoritmo que armazene o valor 10 em uma variável A e o valor 20 em uma variável B.
@@ -24,7 +24,7 @@ public class Exercicio1 {
 		
 		
 		
-		
+	
 		
 		
 
