@@ -23,6 +23,8 @@ public class Main {
 		mediaFinal = (nota1 * 2 + nota2 * 3 + nota3 * 5) / 10;
 		
 		
+		System.out.println("Média: " + mediaFinal);
+		
 		
 		
 		
