@@ -23,6 +23,8 @@ public class Main {
 		precoFinal =  custoFabrica + custoFabrica * 0.28 + custoFabrica * 0.45;
 		System.out.printf("CUSTO FINAL: R$ %.2f", precoFinal );
 		
+		sc.close();
+		
 
 	}
 

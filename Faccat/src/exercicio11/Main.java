@@ -30,6 +30,8 @@ public class Main {
 		
 		System.out.printf("SALÁRIO FINAL: R$ %.2f", salarioFinal);
 		
+		sc.close();
+		
 	}
 
 }

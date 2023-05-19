@@ -26,6 +26,8 @@ public class Main {
 		System.out.println("Média: " + mediaFinal);
 		
 		
+		sc.close();
+		
 		
 		
 
